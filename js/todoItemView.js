@@ -3,7 +3,7 @@ var TodoItemView = Backbone.View.extend({
 
   initialize: function(options){
     if (!(options && options.model))
-      throw new Error("Model is not specified.");
+      throw new Error("Model is not specified...");
 
     this.model.on("change", this.render, this);
   },
